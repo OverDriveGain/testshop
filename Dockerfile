@@ -42,17 +42,4 @@ RUN make
 RUN sudo make install
 WORKDIR /opt
 
-#WORKDIR /opt/testshop/external/monero-cpp/bin
-#RUN update_submodules.sh
-#WORKDIR /opt/testshop/external/monero-cpp/external/monero-project
-#RUN make release-static
-
-#WORKDIR /opt/testshop/external
-#RUN cmake -G"Unix Makefiles"
-#RUN make
-
-#WORKDIR /opt/testshop/build
-#RUN cmake ..
-#RUN make
-# Define default command.
 CMD ["bash"]
