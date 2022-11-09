@@ -1,9 +1,3 @@
-# Export display: xhost +"local:docker@"
-# Bugs: cmake not found
-#
-# Ubuntu Dockerfile
-#
-
 FROM ubuntu:20.04
 
 #Set time zone
@@ -17,7 +11,7 @@ RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selectio
 RUN \
   apt-get update && \
   apt-get -y upgrade && \
-  apt install -y build-essential && \
+  apt install -y build-essential cmake && \
   apt install -y software-properties-common && \
   apt install -y cmake byobu curl git htop man unzip vim wget sudo && \
   apt install -y libcurl4-openssl-dev libssl-dev libuv1-dev qtdeclarative5-dev qml-module-qt-labs-platform qml-module-qtquick-controls qml-module-qtquick-controls2 qml-module-qtquick-shapes qml-module-qtquick-dialogs && \
