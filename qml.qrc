@@ -19,6 +19,7 @@
         <file>qml/components/ThemeSwitch.qml</file>
         <file>qml/components/Triangle.qml</file>
         <file>qml/components/ViewToggle.qml</file>
+        <file>qml/components/CartTable.qml</file>
         <!-- qml sources: pages -->
         <file>qml/pages/CartPage.qml</file>
         <file>qml/pages/CatalogPage.qml</file>
@@ -78,7 +79,11 @@
         <file>images/usb.png</file>
         <file>images/user.png</file>
         <file>images/wallet.png</file>
-        <file>images/wownero_logo.png</file>        
+        <file>images/wownero_logo.png</file>
+        <file>images/examples/product_1.jpg</file>
+        <file>images/examples/product_2.jpg</file>
+        <file>images/examples/product_3.jpg</file>
+
         <!--<file>images/</file> -->
         <!-- shaders -->
         <file>shaders/opacity_mask_qt5.fsh</file>
